@@ -1,13 +1,25 @@
-import "~/styles/globals.css";
+import "~/app/globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "~/components/ui/theme-provider";
 import Footer from "~/components/Footer";
-import { Paprika } from "next/font/google";
+import { Geist, Geist_Mono, Figtree, Paprika } from "next/font/google";
+
+const figtree = Figtree({ subsets: ["latin"], variable: "--font-sans" });
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 const paprika = Paprika({
+  variable: "--font-paprika",
   subsets: ["latin"],
   weight: "400",
-  style: "normal",
 });
 
 // https://nextjs.org/learn/dashboard-app/adding-metadata
@@ -25,15 +37,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${paprika.className} antialiased`}>
+    <html lang="en" suppressHydrationWarning className={figtree.variable}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${paprika.variable} antialiased`}
+      >
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
-          // enableSystem
+          defaultTheme="dark"
+          enableSystem
           disableTransitionOnChange
         >
-          <main>{children}</main>
+          {children}
 
           <Footer></Footer>
         </ThemeProvider>
