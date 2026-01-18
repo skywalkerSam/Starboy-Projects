@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <>
-      <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-8">
+      <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-8 mx-auto max-w-3xl lg:max-w-4xl xl:max-w-5xl">
         {archivesList.map((project) => (
           <Link
             key={project.title}

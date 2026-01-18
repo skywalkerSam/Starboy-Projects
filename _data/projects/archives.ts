@@ -69,7 +69,7 @@ export const archivesList: Projects[] = [
     description: "A Collection of Robot Cards made w/ React.",
   },
   {
-    title: "Hello React!",
+    title: "Hello React",
     href: "https://github.com/skywalkerSam/hello-react",
     description: "The Hello World of React.",
   },
