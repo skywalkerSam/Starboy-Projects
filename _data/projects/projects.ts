@@ -11,20 +11,9 @@ export const projectsList: Projects[] = [
     description: "My Personal Corner of The Web.",
   },
   {
-    title: "blog.skywalkerSam.dev",
-    href: "https://github.com/skywalkerSam/starboy-blogs",
-    description: "A Starboy's Blog.",
-  },
-  {
-    title: "projects.skywalkerSam.dev",
-    href: "https://github.com/skywalkerSam/starboy-projects",
+    title: "image Gallery",
+    href: "https://github.com/skywalkerSam/image-gallery",
     description:
-    "indexing a comprehensive list of all of my projects in existence.",
-  },
-  {
-    title: "Next Gallery",
-    href: "https://github.com/skywalkerSam/next-gallery",
-    description:
-      "A Personalized Gallery Application.",
+      "A Personalized Gallery Application Demo.",
   },
 ];

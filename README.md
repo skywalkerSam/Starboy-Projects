@@ -17,10 +17,14 @@
 
 &nbsp;
 
-Until Next Time...✌️
+Until next time...✌️
+
+&nbsp;
+
+❤️
 
 &nbsp;
 
 <div align="center">
-<p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a>.</p>
+<p>Built w/ <a href="https://nextjs.org">Next.js</a> + <a href="https://vercel.com">Vercel</a></p>
 </div>

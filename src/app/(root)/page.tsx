@@ -1,32 +1,43 @@
 import ActiveProjects from "../_components/ActiveProjects";
-import ActiveTitle from "../_components/ActiveTitle";
 import ArchivedProjects from "../_components/ArchivedProjects";
-import ArchivesTitle from "../_components/ArchivesTitle";
 import ExProjects from "../_components/ExProjects";
-import ExTitle from "../_components/ExTitle";
 import Projects from "../_components/Projects";
-import Title from "../_components/Title";
 
 // ISR
 export const revalidate = 3600;
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-transparent via-sky-400 to-transparent">
-      {/* <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white"> */}
-      <Title></Title>
+    <main className="via-primary flex flex-col items-center justify-center bg-gradient-to-b from-transparent to-transparent">
+      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <h1 className="font-paprika text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl">
+          Starboy<span className="text-primary">&apos;</span>s Projects
+        </h1>
+      </div>
       <Projects></Projects>
       <br />
       <hr />
-      <ActiveTitle></ActiveTitle>
+      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <h1 className="font-paprika text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl">
+          Active Projects<span className="text-primary">!</span>
+        </h1>
+      </div>
       <ActiveProjects></ActiveProjects>
       <br />
       <hr />
-      <ExTitle></ExTitle>
+      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <h1 className="font-paprika text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl">
+          Ex<span className="text-primary">-</span>Projects
+        </h1>
+      </div>
       <ExProjects></ExProjects>
       <br />
       <hr />
-      <ArchivesTitle></ArchivesTitle>
+      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <h1 className="font-paprika text-3xl font-extrabold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl">
+          Archives<span className="text-primary">.</span>
+        </h1>
+      </div>
       <ArchivedProjects></ArchivedProjects>
       <br />
       <hr />

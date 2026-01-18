@@ -69,7 +69,7 @@ export const archivesList: Projects[] = [
     description: "A Collection of Robot Cards made w/ React.",
   },
   {
-    title: "Hello React!",
+    title: "Hello React",
     href: "https://github.com/skywalkerSam/hello-react",
     description: "The Hello World of React.",
   },
@@ -91,7 +91,7 @@ export const archivesList: Projects[] = [
   {
     title: "Python 101",
     href: "https://github.com/skywalkerSam/Python-101",
-    description: "Introduction to Python 3",
+    description: "introduction to Python 3",
   },
   {
     title: "Guessing Game",
@@ -106,6 +106,6 @@ export const archivesList: Projects[] = [
   {
     title: "IT 101",
     href: "https://github.com/skywalkerSam/IT-101",
-    description: "Getting Started with Information Technologies",
+    description: "Getting Started with information Technologies.",
   },
 ];
