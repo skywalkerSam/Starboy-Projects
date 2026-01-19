@@ -22,7 +22,7 @@ export default function Projects() {
                 className="shadow-xl"
               />
             </span>
-            <h3 className="font-paprika text-shadow-xl text-xl font-semibold">
+            <h3 className="font-paprika text-shadow-lg text-xl font-semibold">
               {project.title}
             </h3>
             <div className="tracking-tight text-shadow-xs">
