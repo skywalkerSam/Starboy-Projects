@@ -7,7 +7,7 @@
 
 &nbsp;
 
-## Domains
+## 🌐 Domains
 
 [projects.skywalkerSam.dev](https://projects.skywalkersam.dev)
 
