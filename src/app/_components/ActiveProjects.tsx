@@ -19,7 +19,7 @@ export default function Projects() {
                 alt="GitHub Logo"
                 width={21}
                 height={21}
-                className="shadow-sm"
+                className="shadow-xl"
               />
             </span>
             <h3 className="font-paprika text-shadow-sm text-xl font-semibold">
