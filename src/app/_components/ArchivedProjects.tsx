@@ -19,13 +19,13 @@ export default function Projects() {
                 alt="GitHub Logo"
                 width={21}
                 height={21}
-                className="shadow-xl"
+                className="shadow-sm"
               />
             </span>
-            <h3 className="font-paprika text-shadow-md text-xl font-semibold">
+            <h3 className="font-paprika text-shadow-sm text-xl font-semibold">
               {project.title}
             </h3>
-            <div className="tracking-tight text-shadow-sm">
+            <div className="tracking-tight text-shadow-xs">
               {project.description}
             </div>
           </Link>
