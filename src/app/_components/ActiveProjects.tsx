@@ -22,10 +22,10 @@ export default function ActiveProjects() {
                 className="shadow-xl"
               />
             </span>
-            <h3 className="font-paprika text-xl font-semibold text-shadow-lg">
+            <h3 className="font-paprika text-xl font-semibold text-shadow-md">
               {project.title}
             </h3>
-            <div className="tracking-tight text-shadow-lg">
+            <div className="tracking-tight text-shadow-sm">
               {project.description}
             </div>
           </Link>
