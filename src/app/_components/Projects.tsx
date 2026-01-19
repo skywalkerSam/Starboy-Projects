@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <>
-      <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-8 mx-auto max-w-3xl lg:max-w-4xl xl:max-w-5xl">
+      <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-8 lg:max-w-4xl xl:max-w-5xl">
         {projectsList.map((project) => (
           <Link
             key={project.title}
@@ -19,12 +19,15 @@ export default function Projects() {
                 alt="GitHub Logo"
                 width={21}
                 height={21}
+                className="shadow-xl"
               />
             </span>
-            <h3 className="font-paprika text-xl font-semibold">
+            <h3 className="font-paprika text-shadow-xl text-xl font-semibold">
               {project.title}
             </h3>
-            <div className="tracking-tight">{project.description}</div>
+            <div className="tracking-tight text-shadow-md">
+              {project.description}
+            </div>
           </Link>
         ))}
       </div>
