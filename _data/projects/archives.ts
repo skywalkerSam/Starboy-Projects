@@ -12,9 +12,9 @@ export const archivesList: Projects[] = [
     description: "Dashboard Demo w/ NEXT.js + Vercel.",
   },
   {
-    title: "introductionToWebDevelopment",
+    title: "Web Development 101",
     href: "https://github.com/skywalkerSam/introductionToWebDevelopment",
-    description: "Introduction to Web Development, fr*",
+    description: "introduction to Web Development.",
   },
   {
     title: "House Of Cards",
