@@ -1,14 +1,14 @@
 import { activeList } from "_data/projects/active-projects";
 import Link from "next/link";
 
-export default function Projects() {
+export default function ActiveProjects() {
   return (
     <>
-      <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 p-4 md:grid-cols-2 md:gap-8 lg:max-w-4xl xl:max-w-5xl">
+      <div className="mx-auto grid max-w-3xl grid-cols-1 gap-6 p-8 md:grid-cols-2 md:gap-8 lg:max-w-4xl xl:max-w-5xl">
         {activeList.map((project) => (
           <Link
             key={project.title}
-            className="flex max-w-xl flex-col gap-4 rounded-3xl bg-black/10 px-8 py-4 shadow-lg hover:scale-105"
+            className="flex max-w-xl flex-col gap-4 rounded-3xl bg-gray-950/10 px-8 py-6 shadow-lg hover:scale-105 hover:bg-gray-950/20"
             href={project.href}
             target="_blank"
             rel="noopener noreferrer"
@@ -22,10 +22,10 @@ export default function Projects() {
                 className="shadow-xl"
               />
             </span>
-            <h3 className="font-paprika text-shadow-xl text-xl font-semibold">
+            <h3 className="font-paprika text-xl font-semibold text-shadow-md">
               {project.title}
             </h3>
-            <div className="tracking-tight text-shadow-md">
+            <div className="tracking-tight text-shadow-sm">
               {project.description}
             </div>
           </Link>
