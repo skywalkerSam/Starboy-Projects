@@ -22,7 +22,7 @@ export default function ExProjects() {
                 className="shadow-xl"
               />
             </span>
-            <h3 className="font-paprika text-xl font-semibold text-shadow-md">
+            <h3 className="font-paprika text-xl font-semibold text-shadow-sm">
               {project.title}
             </h3>
             <div className="tracking-tight text-shadow-sm">
