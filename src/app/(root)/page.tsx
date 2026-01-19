@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export default function HomePage() {
   return (
     <main className="via-primary flex flex-col items-center justify-center bg-gradient-to-b from-transparent to-transparent">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+      <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
         <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
           Starboy<span className="text-primary">&apos;</span>s Projects
         </h1>
@@ -17,7 +17,7 @@ export default function HomePage() {
       <Projects></Projects>
       <br />
       <hr />
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+      <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
         <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
           Active Projects<span className="text-primary">!</span>
         </h1>
@@ -25,7 +25,7 @@ export default function HomePage() {
       <ActiveProjects></ActiveProjects>
       <br />
       <hr />
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+      <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
         <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
           Ex<span className="text-primary">-</span>Projects
         </h1>
@@ -33,7 +33,7 @@ export default function HomePage() {
       <ExProjects></ExProjects>
       <br />
       <hr />
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+      <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
         <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
           Archives<span className="text-primary">.</span>
         </h1>
