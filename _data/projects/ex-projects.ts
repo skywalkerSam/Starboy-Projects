@@ -51,4 +51,9 @@ export const exProjectsList: Projects[] = [
     href: "https://github.com/skywalkerSam/stardate",
     description: "A better way of dating things.",
   },
+  {
+    title: "Starboy Blogs",
+    href: "https://github.com/skywalkerSam/Starboy-Blogs",
+    description: "A Starboy Blog.",
+  },
 ];
