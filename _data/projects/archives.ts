@@ -2,41 +2,60 @@ import type { Projects } from "./projects";
 
 export const archivesList: Projects[] = [
   {
-    title: "MySpace Demo",
-    href: "https://github.com/skywalkerSam/mySpace-demo",
-    description: "My Space Demo w/ NEXT.js + Vercel.",
+    title: "IT 101",
+    href: "https://github.com/skywalkerSam/IT-101",
+    description: "Getting Started with information Technologies.",
   },
   {
-    title: "Dashboard Demo",
-    href: "https://github.com/skywalkerSam/dashboard-demo",
-    description: "Dashboard Demo w/ NEXT.js + Vercel.",
+    title: "ML 101",
+    href: "https://github.com/skywalkerSam/ML-101",
+    description: "Machine Learning 101",
   },
   {
-    title: "Web Development 101",
-    href: "https://github.com/skywalkerSam/introductionToWebDevelopment",
-    description: "introduction to Web Development.",
+    title: "Project: Cortana",
+    href: "https://github.com/skywalkerSam/Project-Cortana",
+    description: "Project Cortana. Inspired by Halo Infinite.)",
   },
   {
-    title: "House Of Cards",
-    href: "https://github.com/skywalkerSam/houseOfCards",
-    description:
-      "A simple game where you'd waste your time matching two cards at a time.)",
+    title: "Game Development",
+    href: "https://github.com/skywalkerSam/Game-Dev-101",
+    description: "Game Development 101",
+  },
+  {
+    title: "Guessing Game",
+    href: "https://github.com/skywalkerSam/Guessing-Game",
+    description: "A Terminal-based Guessing Game written in C++",
+  },
+  {
+    title: "Audio Generator",
+    href: "https://github.com/skywalkerSam/Audio-Generator",
+    description: "Text-to-Audio w/ Python 3",
+  },
+  {
+    title: "Hello React",
+    href: "https://github.com/skywalkerSam/hello-react",
+    description: "The Hello World of React.",
+  },
+  {
+    title: "Robofriends",
+    href: "https://github.com/skywalkerSam/robofriends",
+    description: "A Collection of Robot Cards made w/ React.",
+  },
+  {
+    title: "Face Detection",
+    href: "https://github.com/skywalkerSam/faceDetection",
+    description: "Basic Face Detection w/ Clarifai.",
+  },
+  {
+    title: "Tic Tac Toe",
+    href: "https://github.com/skywalkerSam/tictactoe",
+    description: "A Simple Tic Tac Toe.)",
   },
   {
     title: "Dall-E Wrapper",
     href: "https://github.com/skywalkerSam/dalleWrapper",
     description:
-      "Mimicking Dall-E-like responses with a randomized set of images.)",
-  },
-  {
-    title: "Animal Farm",
-    href: "https://github.com/skywalkerSam/animalSearch",
-    description: "POC for Searching Things.",
-  },
-  {
-    title: "Workspace",
-    href: "https://github.com/skywalkerSam/workspace",
-    description: "A Simple Workspace made w/ React.",
+    "Mimicking Dall-E-like responses with a randomized set of images.)",
   },
   {
     title: "Timer",
@@ -54,58 +73,29 @@ export const archivesList: Projects[] = [
     description: "A Simple Clock made w/ React.",
   },
   {
-    title: "Face Detection",
-    href: "https://github.com/skywalkerSam/faceDetection",
-    description: "Basic Face Detection w/ Clarifai.",
+    title: "Animal Farm",
+    href: "https://github.com/skywalkerSam/animalSearch",
+    description: "POC for Searching Things.",
   },
   {
-    title: "Tic Tac Toe",
-    href: "https://github.com/skywalkerSam/tictactoe",
-    description: "A Simple Tic Tac Toe.)",
+    title: "Workspace",
+    href: "https://github.com/skywalkerSam/workspace",
+    description: "A Simple Workspace made w/ React.",
   },
   {
-    title: "Robofriends",
-    href: "https://github.com/skywalkerSam/robofriends",
-    description: "A Collection of Robot Cards made w/ React.",
+    title: "House Of Cards",
+    href: "https://github.com/skywalkerSam/houseOfCards",
+    description:
+      "A simple game where you'd waste your time matching two cards at a time.)",
   },
   {
-    title: "Hello React",
-    href: "https://github.com/skywalkerSam/hello-react",
-    description: "The Hello World of React.",
+    title: "MySpace Demo",
+    href: "https://github.com/skywalkerSam/mySpace-demo",
+    description: "My Space Demo w/ NEXT.js + Vercel.",
   },
   {
-    title: "ML 101",
-    href: "https://github.com/skywalkerSam/ML-101",
-    description: "Machine Learning 101",
-  },
-  {
-    title: "Project: Cortana",
-    href: "https://github.com/skywalkerSam/Project-Cortana",
-    description: "Project Cortana. Inspired by Halo Infinite.)",
-  },
-  {
-    title: "Audio Generator",
-    href: "https://github.com/skywalkerSam/Audio-Generator",
-    description: "Text-to-Audio w/ Python 3",
-  },
-  {
-    title: "Python 101",
-    href: "https://github.com/skywalkerSam/Python-101",
-    description: "introduction to Python 3",
-  },
-  {
-    title: "Guessing Game",
-    href: "https://github.com/skywalkerSam/Guessing-Game",
-    description: "A Terminal-based Guessing Game written in C++",
-  },
-  {
-    title: "Game Development",
-    href: "https://github.com/skywalkerSam/Game-Dev-101",
-    description: "Game Development 101",
-  },
-  {
-    title: "IT 101",
-    href: "https://github.com/skywalkerSam/IT-101",
-    description: "Getting Started with information Technologies.",
+    title: "Dashboard Demo",
+    href: "https://github.com/skywalkerSam/dashboard-demo",
+    description: "Dashboard Demo w/ NEXT.js + Vercel.",
   },
 ];
