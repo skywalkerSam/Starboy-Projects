@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <main className="via-primary flex flex-col items-center justify-center bg-gradient-to-b from-transparent to-transparent">
       <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
-        <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
+        <h1 className="font-paprika text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl text-shadow-xs">
           Starboy<span className="text-primary">&apos;</span>s Projects
         </h1>
       </div>
@@ -18,7 +18,7 @@ export default function HomePage() {
       <br />
       <hr />
       <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
-        <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
+        <h1 className="font-paprika text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl text-shadow-xs">
           Active Projects<span className="text-primary">!</span>
         </h1>
       </div>
@@ -26,7 +26,7 @@ export default function HomePage() {
       <br />
       <hr />
       <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
-        <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
+        <h1 className="font-paprika text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl text-shadow-xs">
           Ex<span className="text-primary">-</span>Projects
         </h1>
       </div>
@@ -34,7 +34,7 @@ export default function HomePage() {
       <br />
       <hr />
       <div className="container flex flex-col items-center justify-center gap-12 p-8 mt-12">
-        <h1 className="font-paprika text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl xl:text-6xl text-shadow-lg">
+        <h1 className="font-paprika text-3xl font-bold md:text-4xl lg:text-5xl xl:text-6xl text-shadow-xs">
           Archives<span className="text-primary">.</span>
         </h1>
       </div>
