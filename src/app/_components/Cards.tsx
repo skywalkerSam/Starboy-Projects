@@ -7,7 +7,7 @@ type CardsProps = {
 
 export function Cards({ projects }: CardsProps) {
   return (
-    <div className="mx-auto grid max-w-3xl grid-cols-1 gap-6 p-8 md:grid-cols-2 md:gap-8 lg:max-w-4xl xl:max-w-5xl">
+    <div className="mx-auto grid max-w-3xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:max-w-4xl xl:max-w-5xl">
       {projects.map((project) => (
         <Link
           key={project.title}
