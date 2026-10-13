@@ -21,7 +21,7 @@ export const personalProjects: Projects[] = [
   {
     title: "Starboy Blogs",
     href: "https://github.com/skywalkerSam/Starboy-Blogs",
-    description: "A Starboy's Blog",
+    description: "A Starboy's Blog.",
   },
   {
     title: "Starboy Projects",
